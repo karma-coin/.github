@@ -1,4 +1,6 @@
-## About Karma Coin Code Repos
+## Karma Coin Code Repositories
+Karma Coin software is 100% open source.
+The software is available in the following code repos.
 
 ### [karamacoin-server](https://github.com/karma-coin/karmacoin-server)
 A Rust implimentation of the Karma Coin Blockchain Node and API.
