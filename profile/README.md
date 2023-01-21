@@ -1,16 +1,16 @@
 ## About Karma Coin Code Repos
 
-### karamacoin-server
+### [karamacoin-server](https://github.com/karma-coin/karmacoin-server)
 A Rust implimentation of the Karma Coin Blockchain Node and API.
 
-### kermacoin-verifier
+### [kermacoin-verifier](https://github.com/karma-coin/karmacoin-verifier)
 A Dart implementation of the Karma Coin verifier API. 
 This API is used by the app to verify users mobile phone numbers.
 
-### karmacoin-app
+### [karmacoin-app](https://github.com/karma-coin/karmacoin-app)
 The Karma App.
 The app is the main karma coin product for people.
 It is available for the Web, iOS and Android platforms.s
 
-### karmacoin-docs
+### [karmacoin-docs](https://github.com/karma-coin/karmacoin-docs)
 Source code for https://karmaco.in
