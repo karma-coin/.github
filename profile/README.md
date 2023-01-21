@@ -16,3 +16,7 @@ It is available for the Web, iOS and Android platforms.s
 
 ### [karmacoin-docs](https://github.com/karma-coin/karmacoin-docs)
 Source code for https://karmaco.in
+
+---
+
+Copyright (c) 2022 by the KarmaCoin Authors. This work is licensed under the [Karma Coin License](https://github.com/karma-coin/.github/blob/main/LICENSE).
