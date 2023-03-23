@@ -20,6 +20,9 @@ Source code for https://karmaco.in
 ### [Karmachain](https://github.com/karma-coin/karmachain)
 The Karma Coin blockchain
 
+### [Karmachain-dash](https://github.com/karma-coin/karmachain-dash)
+Karmachain live blockchain status page
+
 ---
 
 Copyright (c) 2022 by the KarmaCoin Authors. This work is licensed under the [Karma Coin License](https://github.com/karma-coin/.github/blob/main/LICENSE).
