@@ -8,7 +8,7 @@ KarmaCoin project information
 
 Create systemd file for first service /etc/systemd/system/karmacoin-verifier.service 
 
-```
+```bash
 root@kc-ap1-instance:~# cat /etc/systemd/system/karmacoin-verifier.service 
 [Unit]
 Description=authenticator service
@@ -26,14 +26,16 @@ ExecStart=/home/a/karmacoin-verifier/authenticator.exe
 WantedBy=multi-user.target
 ```
 
-Start service
+#### Start the service service
+```bash
 systemctl daemon-reload
 systemctl start karmacoin-verifier.service
+```
 
 ### Step 2
 Create systemd file for first service /etc/systemd/system/karmacoin-server.service 
 
-```
+```bash
 [Unit]
 Description=grpc service
 After=network.target
@@ -50,16 +52,17 @@ ExecStart=/home/a/karmacoin/target/debug/server-app -c verifier.yaml
 WantedBy=multi-user.target
 ```
 
-Satrt service
+#### Satrt service
+```bash
 systemctl daemon-reload
 systemctl start karmacoin-server.service
-
+```
 
 ### Step 3
 
 Install nginx
 
-```
+```bash
 apt install nginx
 ```
 
@@ -67,7 +70,7 @@ apt install nginx
 
 Create configuration for nginx /etc/nginx/conf.d/grpc.conf
 
-```
+```bash
 server {
   server_name api.karmaco.in;
   listen 50055 http2 ;
@@ -84,13 +87,13 @@ server {
 
 Install certbot 
 
-```
+```bash
 apt install certbot python3-certbot-nginx
 ```
 
 Generate cert
 
-```
+```bash
 sudo certbot --nginx -d api.karmaco.in
 ```
 
@@ -101,7 +104,7 @@ modify line "listen 443 ssl;" to "listen 443 http2 ssl;"
 
 Final view
 
-```
+```bash
 server {
   server_name api.karmaco.in;
   listen 443 http2 ssl;
@@ -124,10 +127,10 @@ server {
 
 # Check Status
 
-```
+```bash
 systemctl status certbot.service
 ```
 
-```
+```bash
 systemctl status nginx.service
 ```
