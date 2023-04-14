@@ -3,7 +3,7 @@ Karma Coin software is 100% open source.
 The software is available in the following code repos.
 
 ### [karamacoin-server](https://github.com/karma-coin/karmacoin-server)
-A Rust implimentation of the Karma Coin Blockchain Node and API.
+A Rust implimentation of Karmachain 1.0.
 
 ### [kermacoin-verifier](https://github.com/karma-coin/karmacoin-verifier)
 A Dart implementation of the Karma Coin verifier API. 
@@ -18,10 +18,10 @@ It is available for the Web, iOS and Android platforms.s
 Source code for https://karmaco.in
 
 ### [Karmachain](https://github.com/karma-coin/karmachain)
-The Karma Coin blockchain
+The Karmachain 2.0 blockchain node
 
 ### [karmachain-js](https://github.com/karma-coin/karmachain-js)
-An npm package providing the Karmachain node api to javascript clients.
+An npm package providing the Karmachain 2.0 node api to javascript clients.
 
 ### [Karmachain-dash](https://github.com/karma-coin/karmachain-dash)
 Karmachain live blockchain status page
