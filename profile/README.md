@@ -20,6 +20,9 @@ Source code for https://karmaco.in
 ### [Karmachain](https://github.com/karma-coin/karmachain)
 The Karma Coin blockchain
 
+### [karmachain-js](https://github.com/karma-coin/karmachain-js)
+An npm package providing the Karmachain node api to javascript clients.
+
 ### [Karmachain-dash](https://github.com/karma-coin/karmachain-dash)
 Karmachain live blockchain status page
 
