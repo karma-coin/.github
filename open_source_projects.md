@@ -1,7 +1,11 @@
 # Karmachain 2.0 Dart API Client
 
+Skill level: intermediate / advance
+Langauges: Dart, Javascript
+Frameworks: polkadart, karmachain-js, polkadot api
+
 ## Overview
-We'd like to have a fullly-typed api client in Dart for the Karmachain 2.0 RPC API, and integrate it into the Karma Coin app client.
+We'd like to have a fullly-typed api client lib in Dart for the Karmachain 2.0 RPC API, and integrate it into the Karma Coin app client. This lib will be the only way that the Karma Coin App interacts with Karmachain 2.0.
 
 ## Task Overview
 1. Clone https://github.com/rankanizer/polkadart
